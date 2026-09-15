@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+  --card-bg: #0c0d12;
+  --card-border: rgba(255, 255, 255, 0.1);
+  --card-text: #f4f4f5;
+  --card-muted: #a1a1aa;
+  --btn-bg: #ffffff;
+  --btn-text: #000000;
+  --font-primary: system-ui, -apple-system, sans-serif;
+}
