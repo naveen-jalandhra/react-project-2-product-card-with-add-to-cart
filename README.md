@@ -1,1 +1,0 @@
-# react-project-2-product-card-with-add-to-cart

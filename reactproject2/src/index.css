@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Dono @font-face ko sabse upar rakhein */
+@font-face {
+  font-family: "Poppins";
+  src: url("./font/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Apple";
+  /* Yahan URL mein quotes aur format("truetype") lagana zaroori hai */
+  src: url("/reactproject2/src/font/HomemadeApple-Regular.ttf")
+    format("truetype");
+}
+
+:root {
+  --primary-font: "Poppins", sans-serif;
+  /* Fallback 'cursive' add karein kyunki Apple ek handwriting font hai */
+  --secondary-font: "Apple", cursive;
+}
